@@ -1,1 +1,2 @@
 # GUI-Generator-Installer
+Implemented C library that acts as a parser and parameter manager along with lex & yacc as an additional parser and parameter manager. Java GUI implemented as a text editor. With the use of JNI, the Java GUI and C library where both used to parse the file (.config) opened in the GUI and generate a Java file depending on the file parsed. The generated Java file is another GUI that follows the parameters parsed. The file specifies the title, fields, and buttons desiered in the generated Java code.
